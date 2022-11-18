@@ -72,6 +72,21 @@ width: 100%;
         }
     }
 
+    &__caja__tit {
+        color: white;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding-top: 7px;
+    }
+
+    &__caja__parf {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 31px;
+        color: white;
+        margin-right: 70px;
+        padding-bottom: 17px;
+        margin-left: 5px;
+    }
 
 
 }
