@@ -46,3 +46,33 @@ width: 100%;
 }
 
 
+.contenedor {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    
+    &__caja {
+        width: 24.9%;
+        background-color: red;
+        padding: 5px  0px;
+        position: relative;
+        
+        &__cajita {
+            padding: 25px 10px;
+            background-color: gray;
+            text-align: center;
+            color: white;
+            position: absolute;
+            bottom: 0;
+            right: 1rem;
+        }
+    }
+
+
+
+}
+
